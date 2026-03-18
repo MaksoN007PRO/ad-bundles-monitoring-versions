@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: ad-bundles-monitoring-parser
+
+    ports:
+      - "8501:8501"
+
+    volumes:
+      - ./:/app
+
+    restart: unless-stopped
