@@ -333,7 +333,7 @@ def update_cache():
 
 # ---------------- STREAMLIT ----------------
 
-st.title("Versions of monitoring components for Arenadata bundles")
+st.title("Versions of Arenadata bundles components")
 
 cache = load_cache()
 
@@ -360,6 +360,7 @@ TABS = {
 # --- ET/MON AND PRODUCTS TABS ---
 for tab, products in TABS.items():
     with tab:
+        st.header("Monitoring Versions")
         for product in products:
             st.subheader(product)
 
