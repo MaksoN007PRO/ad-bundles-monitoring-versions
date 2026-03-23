@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ### 3. Запустить:
 
 ```bash
-streamlit run ad-bundles-parser.py.py
+streamlit run ad-bundles-parser.py
 ```
 
 ---
